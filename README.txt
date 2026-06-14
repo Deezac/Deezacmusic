@@ -1,14 +1,15 @@
-DEEZAС Homepage Upload
+DEEZAС Homepage V3
 
-So lädst du die Seite bei Netlify hoch:
+Enthält:
+- echtes Artist Foto im assets Ordner
+- echte Coverbilder
+- Featured Tracks mit echten Links
+- Spotify, SoundCloud, Apple Music Artist Links
+- Spotify Playlist Bereich
+
+GitHub Upload:
 1. ZIP entpacken.
-2. Den Ordner deezac_homepage bei Netlify in das Upload Feld ziehen.
-3. Netlify veröffentlicht die Seite automatisch.
-
-Links ändern:
-- Öffne index.html mit Editor/Notepad.
-- Suche nach SoundCloud, Spotify oder Apple Music.
-- Ersetze dort die URLs.
-
-Track Namen ändern:
-- In index.html nach "Say It Slow", "Cold Dark Night" usw. suchen und austauschen.
+2. Den kompletten Inhalt hochladen und alte Dateien überschreiben.
+3. Wichtig: assets Ordner muss mit hochgeladen werden.
+4. Commit changes.
+5. GitHub Pages deployed automatisch neu.
