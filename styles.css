@@ -9,3 +9,17 @@
 .playlist-feature{display:grid;grid-template-columns:1fr;gap:18px}.playlist-card{display:grid;grid-template-columns:300px 1fr;gap:28px;align-items:center;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:linear-gradient(90deg,rgba(255,23,76,.16),rgba(255,255,255,.04));box-shadow:0 22px 50px rgba(0,0,0,.28)}.playlist-card img{width:100%;height:300px;object-fit:cover}.playlist-card div{padding:28px}.playlist-card h3{font-family:Playfair Display,serif;font-size:42px;margin:6px 0 12px}.playlist-card p{color:#c6a3aa;line-height:1.7}.playlist-card span{display:inline-flex;margin-top:10px;background:linear-gradient(135deg,#ff315c,#a00723);padding:14px 22px;border-radius:999px;font-weight:800;text-transform:uppercase;font-size:13px;box-shadow:0 0 25px rgba(255,23,76,.38)}.journey-buttons{display:flex;gap:12px;justify-content:flex-end;flex-wrap:wrap}.journey-buttons .btn{white-space:nowrap}.listen-icons b{font-size:13px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.04)}
 @media (max-width:1050px){.playlist-card{grid-template-columns:1fr}.playlist-card img{height:auto;max-height:480px}.journey-buttons{justify-content:flex-start}.release-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:650px){.playlist-card div{padding:22px}.playlist-card h3{font-size:32px}.platform-grid{grid-template-columns:1fr}.release-grid{grid-template-columns:1fr}}
+
+
+/* V4 logo integration */
+.brand-logo{width:54px;height:54px;object-fit:cover;border-radius:12px;border:1px solid rgba(255,255,255,.12);box-shadow:0 0 24px rgba(255,23,76,.35)}
+.site-header .brand-logo{width:46px;height:46px}
+.studio-card img{width:86px;height:56px;object-fit:cover;border-radius:10px;margin-bottom:10px;border:1px solid rgba(255,255,255,.12)}
+.image-orb{overflow:hidden;background:#050203;padding:0}
+.logo-orb.image-orb img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.records-section{padding-top:18px;padding-bottom:18px}
+.records-card{display:grid;grid-template-columns:360px 1fr;gap:34px;align-items:center;border:1px solid var(--line);border-radius:24px;background:linear-gradient(90deg,rgba(255,255,255,.05),rgba(255,23,76,.10));overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.32)}
+.records-card img{width:100%;height:360px;object-fit:cover}
+.records-card div{padding:34px}.records-card h2{font-family:Playfair Display,serif;font-size:44px;margin:6px 0 14px}.records-card p{color:#c6a3aa;line-height:1.7;max-width:620px}
+@media (max-width:1050px){.records-card{grid-template-columns:1fr}.records-card img{height:auto}.site-header .brand-logo{width:40px;height:40px}}
+@media (max-width:650px){.brand-logo{width:42px;height:42px}.records-card div{padding:24px}.records-card h2{font-size:34px}}
