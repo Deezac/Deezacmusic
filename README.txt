@@ -1,20 +1,16 @@
-DEEZAC Homepage V10
+DEEZAС Homepage V13 Fixed
 
-Enthält:
-- fertige Artist Homepage
+Enthält eine komplette Homepage mit:
 - Why You Let Me Go als neuester Release vor Say It Slow
-- echte Coverbilder
-- Spotify, SoundCloud, Apple Music Links
-- Spotify Playlist Bereich über Stream My Music
-- Deezac Records Bereich mit schwarzem Logo
-- Get in Touch unter Deezac Records
-- Follow My Journey entfernt
-- obere Hero Buttons entfernt
-- Plattform Icons mit den hochgeladenen App Logo Bildern
+- echte Coverbilder und Tracklinks
+- Spotify Playlist über Stream My Music
+- Stream Buttons mit SoundCloud, Spotify, Apple Music Icons
+- Deezac Records ohne viereckigen Kasten um das Logo
+- Contact unter Deezac Records
+- Hero Buttons entfernt
 
 GitHub Upload:
 1. ZIP entpacken.
-2. index.html, styles.css, script.js, README.txt ersetzen.
-3. assets Ordner vollständig hochladen oder vorhandene Assets überschreiben.
-4. Commit changes.
-5. GitHub Pages deployed automatisch neu.
+2. index.html, styles.css, script.js und assets Ordner hochladen/überschreiben.
+3. Commit changes.
+4. GitHub Pages deployed automatisch neu.
