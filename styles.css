@@ -93,3 +93,56 @@
 }
 .platform .platform-icon.app-icon svg{display:none;}
 @media (max-width:650px){.platform .platform-icon.app-icon{width:58px;height:58px;border-radius:16px}}
+
+
+/* V12 fixes */
+.platform{
+display:flex;
+align-items:center;
+justify-content:flex-start;
+gap:18px;
+}
+.platform .platform-icon.app-icon{
+width:64px;
+height:64px;
+border-radius:18px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:transparent!important;
+box-shadow:0 0 18px rgba(255,255,255,.08),0 0 22px rgba(255,45,166,.12);
+}
+.platform .platform-icon.app-icon img{
+width:100%;
+height:100%;
+object-fit:cover;
+display:block;
+}
+
+.records-card{
+display:grid;
+grid-template-columns:220px 1fr;
+align-items:center;
+gap:30px;
+}
+.records-card img{
+width:180px;
+height:180px;
+object-fit:contain;
+margin:0 auto;
+border-radius:26px;
+box-shadow:0 0 30px rgba(255,45,166,.18);
+background:rgba(255,255,255,.02);
+padding:10px;
+}
+@media (max-width:760px){
+.records-card{
+grid-template-columns:1fr;
+text-align:center;
+}
+.records-card img{
+width:150px;
+height:150px;
+}
+}
