@@ -26,3 +26,27 @@
     transform:translateY(-3px);
     opacity:0.9;
 }
+
+
+.hero-socials{
+    display:flex;
+    gap:14px;
+    margin-top:28px;
+    flex-wrap:wrap;
+}
+
+.hero-socials a{
+    padding:12px 20px;
+    border-radius:14px;
+    text-decoration:none;
+    color:white;
+    background:linear-gradient(135deg,#ff0077,#7a00ff);
+    font-weight:600;
+    transition:0.3s ease;
+    box-shadow:0 0 18px rgba(255,0,119,0.35);
+}
+
+.hero-socials a:hover{
+    transform:translateY(-3px);
+    opacity:0.92;
+}
