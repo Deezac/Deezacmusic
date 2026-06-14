@@ -59,3 +59,19 @@
 .cover img{width:100%;height:100%;object-fit:cover;}
 @media (max-width:1050px){.brand-image-only .brand-logo{width:104px}.logo-orb.image-orb{width:120px;height:80px}.release-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:640px){.release-grid{grid-template-columns:1fr}.brand-image-only .brand-logo{width:96px}.about-section{padding:32px 5vw}.sound-cards{grid-template-columns:1fr}}
+
+.records-contact{margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14)}
+.records-contact p{margin:0 0 12px;color:rgba(255,255,255,.78)}
+
+
+/* V9: real streaming platform icons */
+.platform .platform-icon{width:60px;height:60px;border-radius:15px;display:grid;place-items:center;flex:0 0 60px;box-shadow:0 0 22px rgba(255,255,255,.08)}
+.platform .platform-icon svg{width:38px;height:38px;display:block;overflow:visible}
+.platform.spotify .platform-icon{background:#1DB954;color:#06130b}
+.platform.spotify .platform-icon svg circle{fill:#1DB954}
+.platform.spotify .platform-icon svg path{fill:none;stroke:#06130b;stroke-width:4.4;stroke-linecap:round}
+.platform.soundcloud .platform-icon{background:linear-gradient(135deg,#ff8a00,#ff3300);color:#fff}
+.platform.soundcloud .platform-icon svg path{fill:#fff}
+.platform.apple .platform-icon{background:linear-gradient(135deg,#ff6b9a,#f01745);color:#fff}
+.platform.apple .platform-icon svg rect{fill:#fff;opacity:.96}
+.platform.apple .platform-icon svg path{fill:#f01745}
