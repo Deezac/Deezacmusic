@@ -1,16 +1,11 @@
-DEEZAС Homepage V13 Fixed
+DEEZAC Homepage V15
 
-Enthält eine komplette Homepage mit:
-- Why You Let Me Go als neuester Release vor Say It Slow
-- echte Coverbilder und Tracklinks
-- Spotify Playlist über Stream My Music
-- Stream Buttons mit SoundCloud, Spotify, Apple Music Icons
-- Deezac Records ohne viereckigen Kasten um das Logo
-- Contact unter Deezac Records
-- Hero Buttons entfernt
+Änderung:
+- Official Sound Logo/Karte aus dem Hero Foto entfernt.
+- Rest der Homepage bleibt erhalten.
 
 GitHub Upload:
 1. ZIP entpacken.
-2. index.html, styles.css, script.js und assets Ordner hochladen/überschreiben.
+2. Alle Dateien und den assets Ordner hochladen/überschreiben.
 3. Commit changes.
-4. GitHub Pages deployed automatisch neu.
+4. Kurz warten, dann Seite mit STRG+F5 neu laden.
