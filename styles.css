@@ -99,3 +99,20 @@
     font-size:28px;
     cursor:pointer;
 }
+
+
+/* Footer centered fix */
+footer,
+.footer,
+.footer-links{
+    text-align:center !important;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+    flex-wrap:wrap;
+    margin:0 auto;
+}
