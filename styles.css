@@ -67,3 +67,35 @@
     color:white;
     line-height:1.8;
 }
+
+
+.impressum-modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.75);
+    z-index:9999;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.impressum-modal-box{
+    background:#111;
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:22px;
+    padding:35px;
+    max-width:600px;
+    width:100%;
+    color:white;
+    line-height:1.8;
+    position:relative;
+}
+
+.close-impressum{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size:28px;
+    cursor:pointer;
+}
