@@ -132,3 +132,45 @@ footer{
     justify-content:flex-start !important;
     padding-left:0;
 }
+
+
+/* V22: Instagram & TikTok logo social bar restored */
+.hero-social-icons{
+    display:flex;
+    gap:16px;
+    margin-top:28px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.hero-social-icons a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 16px;
+    border-radius:18px;
+    text-decoration:none;
+    color:white;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.12);
+    box-shadow:0 0 22px rgba(255,0,119,0.20);
+    font-weight:700;
+    transition:0.3s ease;
+}
+
+.hero-social-icons a:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 28px rgba(255,0,119,0.35);
+}
+
+.hero-social-icons img{
+    width:42px;
+    height:42px;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+}
+
+.social-links{
+    display:none !important;
+}
